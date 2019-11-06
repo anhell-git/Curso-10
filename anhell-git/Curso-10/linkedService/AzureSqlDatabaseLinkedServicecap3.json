@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlDatabaseLinkedServicecap3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked Service that connects to the database containing the dbo.FactInventory table.",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=curso10.database.windows.net;initial catalog=Challenge03;user id=admin-sql",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQ0hBTExFTkdFM19lY2U0YWFlMy0wNjJlLTRiNjAtYTEyZC1jN2I5MTQ5MzEzMjMiDQp9"
+		}
+	}
+}
