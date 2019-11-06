@@ -1,0 +1,17 @@
+{
+	"name": "ADLALinkedServicecap3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked Service to process the inventory data using Azure Data Lake Analytics",
+		"annotations": [],
+		"type": "AzureDataLakeAnalytics",
+		"typeProperties": {
+			"accountName": "dtlacap",
+			"servicePrincipalId": "b26568ed-d0b7-4f93-a4d0-b633d46bc3e1",
+			"tenant": "2cf90dac-85b3-460d-994a-59a54615bba6",
+			"subscriptionId": "2a1ba744-8763-4eca-bf52-1ebf761c0762",
+			"resourceGroupName": "CURSO-10",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQ0hBTExFTkdFM182ZDIzMGM2MS0yMjNmLTQwZDQtYmNkYy0wMTU1OWQyN2Q4NjgiDQp9"
+		}
+	}
+}
