@@ -1,0 +1,56 @@
+{
+	"name": "AzureSqlTableDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedServicecap3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "DateKey",
+				"type": "date"
+			},
+			{
+				"name": "StoreKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "OnHandQuantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "OnOrderQuantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DaysInStock",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MinDayInStock",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MaxDayInStock",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "FactInventory"
+		}
+	}
+}
